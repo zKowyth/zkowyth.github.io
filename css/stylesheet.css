@@ -67,3 +67,34 @@ footer {
     background:#1f1f1f;
 	padding-top: 35px;
 }
+
+@media only screen and (max-width: 700px) {
+	.about {
+		float: none;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.languages {
+		float: none;
+		width: 100%;
+	}
+
+	.container {
+		padding-top: 15px;
+	}
+
+	footer {
+		padding-top: 25px;
+	}
+
+	.discord-img {
+		float: none;
+		margin-top: 0;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+		width: 300px;
+		padding-top: 20px;
+	}
+}
