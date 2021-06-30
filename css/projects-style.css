@@ -236,3 +236,34 @@ footer {
 		padding-left: unset;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+
+	header {
+		padding-top: 8%;
+	}
+
+	.title {
+		all: unset;
+		font-size: 60px;
+		font-family: 'Inconsolata', monospace;
+		color: #F5F5F5;
+	}
+
+	.buttons {
+		display: grid;
+	}
+	.div-button1 {
+		margin: 0 auto;
+		position: unset;
+		left: unset;
+		padding-top: 30px;
+	}
+	.plugin {
+		width: 80%;
+	}
+
+	.website {
+		width: 80%;
+	}
+}
