@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: hsl(225, 10%, 10%);
+}
+
+header {
+	text-align: center;
+}
+
+.title {
+	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
+	color: #F5F5F5;
+	position: absolute;
+	right: 25%;
+	top: 10%;
+}
+
+.about {
+	font-family: 'Ubuntu', sans-serif;
+	width: 30%;
+	position: absolute;
+	bottom: 35%;
+	right: 30%;
+	font-size: 27px;
+	color: #F5F5F5;
+}
+
+
+
+.contacts {
+	bottom: 0;
+	position: fixed;
+	display: table-row;
+	width: 30px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.contacts div {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Github */
+.fa-github {
+	background: #211F1F;
+	color: white;
+}
+  
+/* Telegram */
+.fa-telegram {
+	background: #45bbff;
+	color: white;
+}
+  
+/* Twitter */
+.fa-instagram {
+	background: rgb(131,58,180);
+	color: white;
+}
+
+/* Buttons */
+
+.div-button1 {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+}
+
+.div-button2 {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+.div-button3 {
+	position: absolute;
+	bottom: 20%;
+	right: 10%;
+}
+
+a.button1{
+	display:inline-block;
+	padding:0.5em 3em;
+	border:0.16em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.15s;
+}
+a.button1:hover{
+	color:#DDDDDD;
+	border-color:#DDDDDD;
+}
+a.button1:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+a.button2{
+	display:inline-block;
+	padding:0.5em 3em;
+	border:0.16em solid #8598dd;
+	margin:0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+	color:#8598dd;
+	text-align:center;
+	transition: all 0.15s;
+}
+a.button2:hover{
+	color:#DDDDDD;
+	border-color:#DDDDDD;
+}
+a.button2:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+a.button3{
+	display:inline-block;
+	padding:0.5em 3em;
+	border:0.16em solid #00b5ec;
+	margin:0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+	color:#00b5ec;
+	text-align:center;
+	transition: all 0.15s;
+}
+a.button3:hover{
+	color:#DDDDDD;
+	border-color:#DDDDDD;
+}
+a.button3:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	color: #F5F5F5;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+
+	header {
+		padding-top: 8%;
+	}
+
+	.title {
+		all: unset;
+		font-size: 60px;
+		font-family: 'Inconsolata', monospace;
+		color: #F5F5F5;
+	}
+
+	.about {
+		width: 72%;
+		left: 14%;
+		right: 14%;
+		top: 30%;
+		font-size: 30px;
+	}
+
+	.buttons {
+		display: flex;
+	}
+
+	.div-button1 {
+		position: absolute;
+		left: 20%;
+		top: 15%;
+	}
+
+	.div-button2 {
+		position: absolute;
+		left: unset;
+		right: 20%;
+		top: 15%;
+	}
+
+	.div-button3 {
+		position: absolute;
+		bottom: 15%;
+		right: unset;
+		width: 50%;
+		right: 25%;
+		left: 25%;
+	}
+
+	footer {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	header {
+		padding-top: 8%;
+	}
+
+	.title {
+		all: unset;
+		font-size: 60px;
+		font-family: 'Inconsolata', monospace;
+		color: #F5F5F5;
+	}
+
+	.buttons {
+		display:grid;
+	}
+
+	.about {
+		width: 72%;
+		left: 14%;
+		right: 14%;
+		top: 30%;
+		font-size: 20px;
+	}
+
+	.div-button1 {
+		margin: 0 auto;
+		position: unset;
+		left: unset;
+		padding-top: 20px;
+	}
+
+	.div-button2 {
+		position: unset;
+		left: unset;
+		right: unset;
+		margin: 0 auto;
+	}
+
+	.div-button3 {
+		position: absolute;
+		bottom: 15%;
+		right: unset;
+		width: 50%;
+		right: 25%;
+		left: 25%;
+	}
+}
